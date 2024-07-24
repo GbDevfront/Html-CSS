@@ -1,0 +1,33 @@
+@charset "UFT-8";
+body{
+    background-color: rgb(205, 255, 203);
+}
+h1{
+    color: rgb(4, 109, 0);
+}
+
+h2{
+    color: rgb(51, 109, 71);
+}
+h1#principal{
+    text-align: center;
+    background-color: rgb(51, 109, 71);
+    color: white;
+}
+.basico{color: 
+    rgb(51, 109, 71);
+    background-color: lightgreen;
+}
+    .intermediario{
+background-color: rgb(200, 200, 82);
+  color: yellow;  }
+
+    .avançado{
+        background-color: lightcoral;
+color: red;
+
+    }
+    .destaque{
+        background-color: lightsalmon;
+        font-weight: bold;
+    }

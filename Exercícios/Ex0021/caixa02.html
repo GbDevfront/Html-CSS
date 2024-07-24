@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tags</title>
+    <style>
+        body{
+            background-color: dimgray;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0px;
+        }
+        header{
+            background-color: white;
+            padding: 3px;
+            margin: 10px;
+            
+        }
+            nav{
+                background-color: rgb(80, 78, 78);
+                padding: 3px;
+                box-shadow: 3px 1px 1px black;
+                border-radius: 3px;
+            }
+            main
+            {
+                background-color: white;
+                padding: 10px;
+                margin: 10px;
+                border-radius: 20px;
+            }
+            nav > a{
+                text-decoration: none;
+                padding: 33px;
+                font-weight: bold;
+                color: white;
+                margin-right: 45px;
+                
+            }
+            nav >a:hover{
+                text-decoration: underline;
+               
+            }
+
+
+            article{
+                background-color: lightgray;
+            }
+            
+            footer{
+                background-color: black;
+                color: white;
+                padding: 4px;
+                margin: 0px;
+                text-align: center;         
+            }
+            footer > p{
+                margin: 0px;
+            }
+            article > aside{
+            background-color: rgb(142, 139, 139);
+            }
+            #news{
+                padding-top: 25px;
+            }
+                #news{
+                    margin-top: 10px;
+                }
+                section{
+                    background-color: dimgray;
+                }
+                #ll{
+                    text-decoration: none;
+                }
+    </style>
+</head>
+<body>
+<header>
+    <h1>Meu site</h1>
+    <nav>
+        <a  href="d"><abbr id="ll" title="Netflix">Link</abbr></a>
+        <a href="d">Link</a>
+        <a href="d">Link</a>
+        <a href="d">Link</a>
+    </nav>
+</header>
+<main>
+    <section id="esportes">Esportes</section><article>
+        <h2>news sobre Sabino</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime dignissimos et quo tenetur, esse aliquid reprehenderit. Eum, numquam tempora praesentium voluptatibus quia eaque. Obcaecati suscipit optio quo ratione ut!</p>
+        <aside>
+           <p>Artigo Escrito por mim</p></aside>
+    </article>
+    <section id="news">Notícias
+        <article id="news2">
+            <h2 >news sobre Sabino</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore maxime dignissimos et quo tenetur, esse aliquid reprehenderit. Eum, numquam tempora praesentium voluptatibus quia eaque. Obcaecati suscipit optio quo ratione ut!</p>
+            <aside>
+               <p>Artigo Escrito por mim</p></aside>
+        </article>
+    </section>
+</main>
+
+<footer>Algo que algum dia será criado</footer>
+</body>
+</html>
