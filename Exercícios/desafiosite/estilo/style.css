@@ -107,7 +107,7 @@ main img{
 
 main h1{
 color:var(--cor4);   
-font-family: 'Android'; 
+font-family: var(--font-android); 
 font-weight: normal;
 }
 
