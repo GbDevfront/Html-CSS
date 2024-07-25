@@ -37,7 +37,7 @@ header{
     padding-bottom: 10px;     
 }
 
-eader h1{
+header h1{
     font-family: var(--fontepadrao);
     font-weight: bold;
     font-size: 60px;
