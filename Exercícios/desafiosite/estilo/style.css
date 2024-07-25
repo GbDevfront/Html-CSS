@@ -107,12 +107,12 @@ main img{
 
 main h1{
 color:var(--cor4);   
-font-family: var(--font-android); 
+font-family: var(--font-android), cursive; 
 font-weight: normal;
 }
 
 main h2{
-    font-family: var(--font-android);
+    font-family: var(--font-android), cursive;
     color:var(--cor4);
     background-image: linear-gradient(to right, var(--cor1),transparent);
     text-indent: 8px;
