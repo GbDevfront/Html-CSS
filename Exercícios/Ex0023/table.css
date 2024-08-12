@@ -1,0 +1,50 @@
+@charset "utf-8";
+
+body{
+    background-color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1, p{
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+table{
+   width: 500px;
+    
+    }
+
+    .container{
+        display: flex;
+        justify-content: center;
+        align-items: center;         
+    
+    }
+td, th{
+    border: 1px solid black;
+    padding: 10px;
+}
+thead{
+    background-color: gray;
+    color: white;
+    position: sticky;
+    top: -1px;
+}
+    .num{
+        text-align: right;
+    }
+    tfoot{
+        background-color: gray;
+        color: white;
+    }
+    caption{
+        font-size: 1em;
+        font-weight: bold;
+        padding: 10px;
+        background-color: lightgray;
+    }
+    tbody > tr:nth-child(odd){
+        background-color: lightgray ;
+    }
+
+    
