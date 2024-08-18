@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Teste de iframes</title>
+    <style>
+    
+        #tela{
+            width: 95vw;
+            height: 450px;
+            margin-left: 15px;
+            border: 2px solid black;
+        }
+    </style>
 </head>
 <body>
     <h1>faça uma escolha</h1>
@@ -11,11 +20,17 @@
 <ul>
     
         
-            <li><a href="">Primeira Página</a></li>
-            <li><a href="">Segunda Página</a></li>
-            <li><a href="">Terceira Página</a></li>
+            <li><a href="pg-externas/primeirapágina.html" target="frame">Primeira Página</a></li>
+            <li><a href="pg-externas/segundapagina.html" target="frame">Segunda Página</a></li>
+            <li><a href="pg-externas/terceirapagina.html" target="frame">Terceira Página</a></li>
          
 </ul>
 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum expedita, tempora fugiat laudantium asperiores minus numquam fuga commodi dolores placeat magni vel sapiente molestias earum perferendis, impedit esse mollitia cupiditate.l Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, aut ea culpa sit dolores error optio reiciendis quod, adipisci sint quae saepe quidem quas sapiente eveniet illo ducimus laboriosam ratione!</p>
 </body>
+<iframe id="tela" name="frame" srcdoc="<h1> escolha uma das opções</h1> ">
+    
+    <p>seu navegador nõ é compativel com  o site</p>
+</iframe>
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam sapiente numquam perferendis sequi consectetur, voluptas error unde assumenda ratione voluptatum, atque dignissimos fugit quis praesentium nulla voluptatibus deserunt? Repellendus, doloremque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eveniet repellat consectetur beatae, quaerat inventore. Distinctio, alias numquam asperiores, velit sapiente cum sunt voluptate unde excepturi non repellat minima saepe.</p>
 </html>
